@@ -1,0 +1,172 @@
+
+/* GENERAL PAGE DESIGN */
+
+body {
+  background-color: #FAF7F5;
+  color: #40363A;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* CENTER THE PAGE */
+
+.container {
+  width: 700px;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+/* WHITE CARDS */
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* HEADINGS */
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  color: #9B5C73;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+/* PARAGRAPHS */
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ROUND PROFILE PICTURE */
+
+.img-circle {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 50%;
+}
+
+/* LINKS */
+
+a {
+  color: #9B5C73;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #69364F;
+  text-decoration: underline;
+}
+
+/* FASHION BUTTON */
+
+.btn-rose {
+  display: inline-block;
+  background-color: #9B5C73;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-rose:hover {
+  background-color: #69364F;
+  color: white;
+  text-decoration: none;
+}
+
+/* SPACE BEFORE BUTTON */
+
+.introduction p:last-of-type {
+  margin-bottom: 30px;
+}
+
+/* HORIZONTAL SOCIAL MEDIA LIST */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+/* SOCIAL MEDIA LINKS */
+
+.social-links a {
+  font-size: 17px;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* TABLETS */
+
+@media (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+
+  .card-white {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+}
+
+/* MOBILE PHONES */
+
+@media (max-width: 540px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .card-white {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .img-circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .list-inline > li {
+    padding: 0 10px;
+  }
+}
